@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mateusz Miśkiewicz</title>
+  <link rel="icon" href="images/Mateusz-okrag.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body onload="startTime()">
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Mateusz Miśkiewicz</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Projects</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">I'm Mateusz. Web designer.</h1>
+          <a href="https://www.apple.com/pl/app-store/"><button type="button"
+              class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button></a>
+          <a href="https://play.google.com/store/games?hl=pl&pli=1"><button type="button"
+              class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+              Download</button></a>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image rounded-circle" src="images/Mateusz-okrag.png" alt="dog-top">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Check Me.</h3>
+          <p>I am an IT specialist, I'm learning web programming. In the future I want to be a programmer.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Trust Me.</h3>
+          <p>I offer creating websites from scratch. I will refine every detail of your website, which will stands out
+            from the competition with its incredible design.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Give Me a chance.</h3>
+          <p>I offer configuration services for routers, switches, firewalls, WiFi controllers used in the company's
+            network infrastructure.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Cooperation carried out without any reservations. The company is distinguished by
+            my own, both commissioned and any of them in the course of cooperation. Full professionalism and very good
+            communication.</h2>
+          <img class="testimonial-image rounded-circle" src="images/Widgets-images/Opinion-person-1.jpg"
+            alt="dog-profile">
+          <em>London, England</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Excellent cooperation for years. Very professional and helpful. Support of Mr.
+            Mateusz also after working hours! I highly recommend. It's a family business that really cares about the
+            customer.</h2>
+          <img class="testimonial-image rounded-circle" src="images/Widgets-images/Opinion-person-2.jpg"
+            alt="lady-profile">
+          <em>Liverpool, England</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Projects -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">These are my sample works.</h2>
+    <p>Check it.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-12 col-md-6">
+        <div class="card" style="background-image: url(images/Widgets-images/new-year.jpg);">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>Time countdown</h3>
+          </div>
+          <div class="card-body">
+
+            <p style="margin-top: 70px; color: #fff;">Javascript countdown to New Year</p>
+            <p id="demo" style="font-size: 50px; color: #fff;"></p>
+            <p></p>
+            <center>
+              <button class="btn btn-lg btn-block btn-dark addtocart" type="button" style="width: 50%; margin-top:50px"
+                onclick="alert('This widget was created using the Javascript language in order to count down the time to New Year 2024.')">Find
+                out more</button>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-12 col-md-6">
+        <div class="card">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>Progress bar</h3>
+          </div>
+          <div class="card-body" style="background-color: #fff;">
+
+
+            <div id="progress">
+              <div id="progress-bar"></div>
+              <ul id="progress-num">
+                <li class="step active">1</li>
+                <li class="step">2</li>
+                <li class="step">3</li>
+                <li class="step">4</li>
+              </ul>
+            </div>
+            <button id="progress-prev" class="btn" disabled>Prev</button>
+            <button id="progress-next" class="btn">Next</button>
+
+            <center>
+              <button class="btn btn-lg btn-block btn-dark addtocart" type="button" style="width: 50%; margin-top:50px"
+                onclick="alert('This widget after using the buttons shows progress or regression depending on the selected button.')">Find
+                out more</button>
+            </center>
+            <script src="script.js"></script>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pricing-column col-lg-12">
+        <div class="card">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>JavaScript Clock</h3>
+          </div>
+          <div class="card-body">
+            <div id="txt" style="margin-top: 70px; font-size: 100px;"></div>
+            <center>
+              <button class="btn btn-lg btn-block btn-dark addtocart" type="button" style="width: 50%; margin-top:50px"
+                onclick="alert('This widget was created to display the current time on the page.')">Find
+                out more</button>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-12">
+        <div class="card">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>Slider</h3>
+          </div>
+          <div class="card-body">
+
+            <center>
+              <div class="slider" style="margin-top: 70px;">
+                <img src="images/Widgets-images/slide-1.jpg" class="active">
+                <img src="images/Widgets-images/slide-2.jpg">
+                <img src="images/Widgets-images/slide-3.jpg">
+              </div>
+
+              <script>
+                const sliderImages = document.querySelectorAll(".slider img");
+                let currentSlide = 0;
+                let slideInterval = setInterval(nextSlide, 3000);
+
+                function nextSlide() {
+                  sliderImages[currentSlide].classList.remove("active");
+                  currentSlide = (currentSlide + 1) % sliderImages.length;
+                  sliderImages[currentSlide].classList.add("active");
+                }
+              </script>
+
+              <button class="btn btn-lg btn-block btn-dark addtocart" type="button" style="width: 50%; margin-top:50px"
+                onclick="alert('This widget was created with the purpose of introducing a slider effect on the page, where the graphics change at the appropriate time interval to create a slider effect.')">Find
+                out more</button>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-12">
+        <div class="card">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>Color picker</h3>
+          </div>
+          <div class="card-body">
+
+            <div id="widget-container" style="margin-top: 70px;"></div>
+            <script>
+              // The JavaScript code for the color picker widget.
+              const widgetContainer = document.getElementById("widget-container");
+
+              const colorPicker = document.createElement("input");
+              colorPicker.type = "color";
+              colorPicker.value = "#000000";
+              widgetContainer.appendChild(colorPicker);
+
+              const colorDisplay = document.createElement("p");
+              colorDisplay.innerHTML = "Selected color: ";
+              widgetContainer.appendChild(colorDisplay);
+
+              const colorValue = document.createElement("span");
+              colorValue.innerHTML = colorPicker.value;
+              colorDisplay.appendChild(colorValue);
+
+              colorPicker.addEventListener("change", function () {
+                colorValue.innerHTML = colorPicker.value;
+              });
+            </script>
+
+            <center>
+              <button class="btn btn-lg btn-block btn-dark addtocart" type="button" style="width: 50%; margin-top:50px"
+                onclick="alert('This widget allows you to select a color from a color palette, and once you select a color, information about the selected color appears below.')">Find
+                out more</button>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-12">
+        <div class="card">
+          <div class="card-header" style="background-color:#019267; color: #fff;">
+            <h3>Lightbox Gallery - Click on Image to View Effect</h3>
+          </div>
+
+          <div id="slider-container">
+          </div>
+          <div class="lightbox-container">
+            <img class="lightbox-img" src="" alt="">
+            <span class="lightbox-close">&times;</span>
+          </div>
+
+          <div class="gallery" style="margin: 100px;">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-2.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-2.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-2.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+            <img src="images/Widgets-images/slide-1.jpg" alt="" style="width: 300px; height: 200px; margin: 15px;"
+              onclick="openLightbox(this)">
+          </div>
+
+          <script>
+            function openLightbox(img) {
+              var lightbox = document.querySelector(".lightbox-container");
+              var lightboxImg = document.querySelector(".lightbox-img");
+              lightboxImg.src = img.src;
+              lightbox.style.display = "block";
+            }
+
+            var closeBtn = document.querySelector(".lightbox-close");
+            closeBtn.addEventListener("click", function () {
+              var lightbox = document.querySelector(".lightbox-container");
+              lightbox.style.display = "none";
+            });
+          </script>
+
+          <center>
+            <button class="btn btn-lg btn-block btn-dark addtocart" type="button"
+              style="width: 50%; margin-bottom: 20px; margin-top: -35px;"
+              onclick="alert('This widget allows you to add a lightbox photo gallery to your website, the effect will be visible after clicking on a specific graphic element.')">Find
+              out more</button>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+  </section>
+
+  <!-- Contact section -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">If you wish to contact me, please fill out the form and submit it.</h3>
+
+      &nbsp;
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="contact-info">
+            <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+            <h2>Contact Me</h2>
+            <h4>I would love to hear from you !</h4>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="contact-form">
+            <div class="form-group">
+              <form method="post" action="mailto:mateusz.miskiewicz@o2.pl">
+                <label class="control-label col-sm-2" for="fname">First Name:</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="lname">Last Name:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="comment">Comment:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" value="Send">Submit</button></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2023 Mateusz Miśkiewicz</p>
+
+      <script src="script.js"></script>
+      <script>document.write("Today is " + getDateStr())</script>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
